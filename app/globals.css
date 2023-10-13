@@ -2,3 +2,65 @@
 @tailwind components;
 @tailwind utilities;
 
+@media only screen and (max-width: 600px) {
+    .mobilev{
+        flex-direction: column;
+
+    }
+.mobsidbar{
+        display:none;
+    }
+.mobpage2{
+    font-size: 1vmax;
+
+}
+.card{
+    flex-direction: row;
+    
+}
+.mobright{
+    flex-direction: column;
+}
+.topnav a{
+    display: none;
+}
+.topnav input{
+ width: 15%;
+}
+}
+
+
+
+
+.navbtn button{
+
+    padding:8px;
+    border-radius: 3px;
+
+}
+.navbtn button:hover{
+    background-color: black;
+    color: white;
+}
+.nxtbtn{
+    border: 2px solid gray;
+    padding: 0.5vmax;
+}
+.nxtbtn:hover{
+    border-color: black;
+}
+.rimgaa img{
+    transition: transform 0.3s;
+}
+.rimgaa img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.csize div:hover{
+    border-color: rgb(248, 160, 175);
+
+}
+.topnav a:hover{
+    color:rgb(238, 73, 101);
+
+}

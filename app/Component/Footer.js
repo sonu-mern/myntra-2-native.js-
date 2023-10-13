@@ -1,14 +1,10 @@
 
-" use client"
-
+"use client";
 import React, { Component } from 'react';
 import { FaYoutube,FaTwitter,FaFacebookSquare } from 'react-icons/fa';
 import { TfiInstagram } from 'react-icons/tfi';
 
-const gp = '/OffBanner/gp.png';
-const as = '/OffBanner/as.png';
-const og = '/OffBanner/og.png';
-const returnp = '/OffBanner/returnp.png';
+
 
 const textColorStyle = { color: '##696b79' };
 
@@ -17,7 +13,7 @@ export class Footer extends Component {
     return (
       <div className='h-[100%]'>
         <footer>
-          <div className='w-full flex '>
+          <div className='w-full flex mobilev'>
             <div className='w-[10%]'></div>
             <div className='w-[15%]' style={textColorStyle}>
               <b>ONLINE SHOPPING</b>
@@ -62,8 +58,8 @@ export class Footer extends Component {
               <br></br>
               <br></br>
               <div className='flex gap-2 '>
-                <img className='w-[11vmax]' src={gp} alt="Google Play" />
-                <img className='w-[11vmax]' src={as} alt="App Store" />
+                <img className='w-[11vmax]' src="/OffBanner/gp.png" alt="Google Play" />
+                <img className='w-[11vmax]' src= '/OffBanner/as.png' alt="App Store" />
               </div>
               <br></br>
               <br></br>
@@ -85,7 +81,7 @@ export class Footer extends Component {
             <div className='w-[20%]'>
               <br></br>
               <div className='flex gap-2'>
-                <img className='h-[3vmax]' src={og} alt="Original Guarantee" />
+                <img className='h-[3vmax]' src= '/OffBanner/og.png' alt="Original Guarantee" />
                 <p>
                   <h6 style={textColorStyle}>
                     <b> 100% ORIGINAL </b>guarantee
@@ -96,7 +92,7 @@ export class Footer extends Component {
               <br></br>
               <br></br>
               <div className='flex gap-2'>
-                <img className='h-[3vmax]' src={returnp} alt="Return Policy" />
+                <img className='h-[3vmax]' src= '/OffBanner/returnp.png' alt="Return Policy" />
                 <p>
                   <b style={textColorStyle}>  Return within 14 days</b> Return within 14 days of
                   <br></br> receiving your order
@@ -110,15 +106,12 @@ export class Footer extends Component {
             <b style={textColorStyle}>POPULAR SEARCHES</b> <div className='w-[70%] h-[0px] border-2 border-#EAEAEC-500'></div>
           </div>
           <br></br>
-          <div className='px-[10%]'>
+          <div className='px-[10%] pb-10'>
             <p style={textColorStyle}>Makeup | Dresses For Girls I T-Shirts I Sandals I Headphones I Babydolls I Blazers For Men I Handbags I Ladies Watches I Bags I Sport Shoes I Reebok Shoes I Puma Shoes I
               Boxers I Wallets I Tops I Earrings I Fastrack Watches I Kurtis I Nike I Smart Watches I Titan Watches I Designer Blouse I Gowns I Rings I Cricket Shoes I Forever 21 | Eye
               Makeup I Photo Frames I Punjabi Suits I Bikini I Myntra Fashion Show I Lipstick I Saree IWatches I Dresses I Lehenga I Nike Shoes I Goggles I Bras I Suit I Chinos I Shoes I
               Adidas Shoes I Woodland Shoes I Jewellery I Designers Sarees
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
+            
             </p>
           </div>
         </footer>
@@ -128,3 +121,4 @@ export class Footer extends Component {
 }
 
 export default Footer;
+	

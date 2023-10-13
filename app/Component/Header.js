@@ -9,29 +9,29 @@ function Header() {
   return (
     <>
     <div className=' h-[80px]'></div>
-    <div className='fixed top-0 left-0 w-full bg-white shadow-md z-10'>
-      <div className='flex h-[80px]'>
+    <div className='fixed top-0 left-0 w-full bg-white shadow-md z-10 topnav'>
+      <div className='flex h-[80px] color-primary'>
         <div className='w-[10%] flex items-center justify-center'>
-          <img className='h-[30px] ' src="/images/myntra_logo.png" alt="Myntra Logo" />
+          <a href='/'><img className='h-[30px] logo ' src="/images/myntra_logo.png" alt="Myntra Logo" /></a>
         </div>
         <div className='w-[40%] flex items-center'>
           <div className='px-[15px] cursor-pointer'>
-            <a href='/Home' className='font-bold'>Men</a>
+            <a href='/Page2' className=' font-bold'>Men</a>
           </div>
           <div className='px-[15px] cursor-pointer'>
-            <a href='/' className='font-bold'>Women</a>
+            <a href='/Page2' className='font-bold'>Women</a>
           </div>
           <div className='px-[15px] cursor-pointer'>
-            <a href='/' className='font-bold'>Kids</a>
+            <a href='/Page2' className='font-bold'>Kids</a>
           </div>
           <div className='px-[15px] cursor-pointer'>
-            <a href='/' className='font-bold'>Home & Living</a>
+            <a href='/Page2' className='font-bold'>Home & Living</a>
           </div>
           <div className='px-[15px] cursor-pointer'>
-            <a href='/' className='font-bold'>Beauty</a>
+            <a href='/Page2' className='font-bold'>Beauty</a>
           </div>
           <div className='px-[15px] cursor-pointer'>
-            <a href='/' className='font-bold'>Studio</a>
+            <a href='/Page2' className='font-bold'>Studio<sup className='text-pink-500'>NEW</sup> </a>
           </div>
         </div>
         <div className='w-[35%] flex justify-center items-center relative'>

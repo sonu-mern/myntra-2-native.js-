@@ -1,20 +1,17 @@
 import React from 'react'
-import Header from '../Component/Header'
+
 import { FiSearch } from 'react-icons/fi';
 
-function page() {
+
+function Siderbar() {
     return (
         <>
 
-            <Header></Header>
-            <div>Home/Clothing/Apparel</div>
-            <br></br>
-            <div><h1>Apparel -<small>15346</small></h1></div>
-            <br></br>
-            <h1 className='pb-[8px]'>Filters</h1>
+           
+      
 
 
-            <div name="filter" className='w-[20%] h-[226vh] border-2 border-gray-300 '>
+            <div name="filter" className='w-[20%] h-[228vh] border-2 border-gray-300 mobsidbar '>
 
                 <div name="gender" className='flex pl-[1vmax]  flex-col border-2 border-grey-500 pb-2 py-[5px] '>
                     <div >
@@ -200,7 +197,7 @@ function page() {
 
                 </div>
 
-                <div name="gender" className='flex pl-[1vmax] gap-3  flex-col border-2 border-grey-500 pb-2 py-[5px] '>
+                <div name="gender" className='flex pl-[1vmax] gap-3  flex-col pb-2 py-[5px] '>
             
                 <h1 className='py-[5px]'><b>COLOR</b></h1>
    
@@ -244,8 +241,9 @@ function page() {
 
 
             </div>
+            
         </>
     )
 }
 
-export default page
+export default Siderbar
