@@ -15,7 +15,8 @@ export class Footer extends Component {
         <footer>
           <div className='w-full flex mobilev'>
             <div className='w-[10%]'></div>
-            <div className='w-[15%]' style={textColorStyle}>
+            <div className='flex w-[50%] moblevInner1 '>
+            <div className='w-[50%]' style={textColorStyle}>
               <b>ONLINE SHOPPING</b>
               <br></br>
               <br></br>
@@ -38,7 +39,7 @@ export class Footer extends Component {
               <h6>Whitehat</h6>
             </div>
 
-            <div className='w-[15%]' style={textColorStyle}>
+            <div className='w-[50%]' style={textColorStyle}>
               <b>CUSTOMER POLICIES</b>
               <br></br>
               <br></br>
@@ -52,8 +53,10 @@ export class Footer extends Component {
               <h6>Privacy policy</h6>
               <h6>Grievance Officer</h6>
             </div>
+            </div> 
 
-            <div className='w-[30%]' style={textColorStyle}>
+            <div className='flex w-[50%] moblevInner2'>
+            <div className='w-[60%]' style={textColorStyle}>
               <b> EXPERIENCE MYNTRA APP ON MOBILE</b>
               <br></br>
               <br></br>
@@ -78,7 +81,7 @@ export class Footer extends Component {
                 <i className="fa fa-instagram" style={{ fontSize: "30px",  }}></i>
               </div>
             </div>
-            <div className='w-[20%]'>
+            <div className='w-[40%]'>
               <br></br>
               <div className='flex gap-2'>
                 <img className='h-[3vmax]' src= '/OffBanner/og.png' alt="Original Guarantee" />
@@ -99,6 +102,7 @@ export class Footer extends Component {
                 </p>
               </div>
             </div>
+            </div>  
             <div className='w-[10%]'></div>
           </div>
           <div className='flex items-center gap-1'>

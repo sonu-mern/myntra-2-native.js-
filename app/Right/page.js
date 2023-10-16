@@ -1,4 +1,5 @@
-import React from 'react'
+"use client";
+import React, { useEffect } from 'react';
 import Header from '../Component/Header'
 import { BsFillStarFill,BsTruck } from "react-icons/bs";
 import { HiShoppingBag } from "react-icons/hi";
@@ -9,6 +10,14 @@ import { FaArrowRightArrowLeft } from "react-icons/fa6";
 import Footer from '../Component/Footer';
 
 function page() {
+    useEffect(() => {
+        // This code will run on the client side when the component is mounted
+        const addtoBag = document.getElementById("addtoBag");
+        
+        addtoBag.addEventListener("click", function () {
+          alert("Item added to the cart successfully");
+        });
+      }, []); 
   return (
     <>
     <Header></Header>
@@ -38,11 +47,11 @@ function page() {
             </div>
             
         </div>
-        <div name="rating"className='w-[40%] px-[10px]'>
+        <div name="rating"className='w-[40%] px-[10px] rating' >
             <div>
                 <h1><b>Indo Era</b></h1>
                 <div><h2>Women Purple Yoke Design Kurta with Palazzos & With Dupatta</h2>
-                <div className='border-2 flex w-[30%] p-2 mt-2'>
+                <div className='border-2 flex w-[30%] p-2 mt-2 star'>
                     4.3 &nbsp;<BsFillStarFill className='text-green-500'/> | 7.3k Ratings
                 </div>
                 </div>
@@ -68,12 +77,12 @@ function page() {
                         <div className='border  w-[50px] h-[50px] flex justify-center items-center rounded-full font-bold '>XXL</div>
                     </div>
 
-                    <div className='flex gap-8 mt-5'>
-                        <div className='flex border bg-pink-500 text-white w-[30%] items-center justify-center h-[3vmax] rounded'>
+                    <div className='flex gap-8 mt-5 buyp'>
+                        <div id='addtoBag' className='flex border bg-pink-500 text-white w-[30%] buyp1 items-center justify-center h-[3vmax] rounded'>
                            <HiShoppingBag className='text-white text-xl'/> &nbsp; ADD TO BAG
                         </div>
 
-                        <div className='flex border bg-white text-black w-[30%] items-center justify-center h-[3vmax] rounded'>
+                        <div className='flex border bg-white text-black w-[30%] buyp2 items-center justify-center h-[3vmax] rounded'>
                            <AiOutlineHeart className='text-black text-xl'/> &nbsp; ADD TO BAG
                         </div>
 
@@ -105,7 +114,9 @@ function page() {
 
         </div>
     </div>
-    <div className='mt-10'>
+    
+    <hr></hr>
+    <div className='mt-[10vh] pfotter '>
 
     <Footer/>
     </div>
