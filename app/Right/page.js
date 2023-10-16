@@ -18,7 +18,7 @@ function page() {
 
     <div name="main" className='h-[100vh] w-[100%] flex mobright'>
         <div name="img" className='w-[60%] h-[90vh] border-2 rimgaa '>
-            <div className='flex gap-4'>
+            <div className='flex gap-4 rimgaaInner1'>
             <div className='h-[50vh] w-[50%] overflow-hidden'>
                 <img  src="/Product2/pbb1.webp" />
             </div>
@@ -27,7 +27,7 @@ function page() {
             </div>
 
             </div>
-            <div className='flex gap-4 mt-2'>
+            <div className='flex gap-4 mt-2 rimgaaInner2'>
             <div className='h-[50vh] w-[50%] overflow-hidden'>
                 <img  src="/Product2/pbb3.webp" />
             </div>

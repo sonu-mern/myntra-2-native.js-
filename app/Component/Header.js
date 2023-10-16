@@ -1,11 +1,25 @@
 "use client"
-import React from 'react'
+import React, { useState } from 'react';
 import Image from 'next/image';
+import { AiOutlineUser,AiOutlineSearch } from 'react-icons/ai';
+import { FaBars } from 'react-icons/fa';
+import { RxCross1 } from 'react-icons/rx';
+
+
+
 
 // import second from  '../Page/App.js'
 // import {Link, NavLink} from 'react-router-dom'
 
 function Header() {
+  const [navBarVisible, setNavBarVisible] = useState(false);
+
+  const toggleNavBar = () => {
+    setNavBarVisible(!navBarVisible);
+  };
+  
+    // Your other code
+
   return (
     <>
     <div className=' h-[80px]'></div>
@@ -76,7 +90,50 @@ function Header() {
         </div>
       </div>
     </div>
-    </>
+
+
+    <div className='h-[80px] fixed border  w-[100vw] top-0 bg-white ' id='mobile-view1'>
+  <div className='flex items-center justify-between px-4 py-4 '>
+    <div className='w-[10%] flex items-center justify-center'>
+      <a href='/'><img className='h-[30px] logo ' src="/images/myntra_logo.png" alt="Myntra Logo" /></a>
+    </div>
+    <div className='flex gap-3 '>
+      <div><AiOutlineSearch/></div>
+      <div><AiOutlineUser/></div>
+      <div id='bar'onClick={toggleNavBar}>{navBarVisible ? <RxCross1 /> : <FaBars />}</div>
+    </div>
+  </div>
+</div>
+
+<div className='flex justify-end items-center fixed  ' id='navBar' style={{ display: navBarVisible ? 'block' : 'none' }} >
+<div className='h-[100vh] w-[80vw] flex flex-col    gap-10 items-center justify-center border bg-gray-400  '>
+  <div> 
+  <a href='/Page2' className=' font-bold'>Men</a>
+  </div>
+  <div>
+  <a href='/Page2' className=' font-bold'>Women</a>
+  </div>
+  <div>
+  <a href='/Page2' className=' font-bold'>Kids</a>
+  </div>
+  <div>
+  <a href='/Page2' className=' font-bold'>Home & Living
+</a>
+  </div>
+  <div>
+  <a href='/Page2' className=' font-bold'>Beauty</a>
+  </div>
+  <div>
+  <a href='/Page2' className=' font-bold'>Studio</a>
+  </div>
+</div>
+</div>
+
+
+
+
+
+</>
   );
 }
 

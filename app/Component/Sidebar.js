@@ -11,7 +11,7 @@ function Siderbar() {
       
 
 
-            <div name="filter" className='w-[20%] h-[228vh] border-2 border-gray-300 mobsidbar '>
+            <div name="filter" className='w-[20%] h-[236vh] border-2 border-gray-300 mobsidbar '>
 
                 <div name="gender" className='flex pl-[1vmax]  flex-col border-2 border-grey-500 pb-2 py-[5px] '>
                     <div >

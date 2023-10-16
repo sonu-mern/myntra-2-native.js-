@@ -71,9 +71,13 @@ function page() {
             </div>
             <div className='flex rimgaa' >
                 <Siderbar />
-                <div className=' w-[80%] border-t-2 border-gray-400'>
-                    <div className='w-[100%] flex gap-10 px-5'>
-                        <div className='w-[25%] my-4  '>
+                <div className=' w-[80%] border-t-2 border-gray-400 mainProduct'>
+                    <div className='w-[100%] flex px-5 productPage '>
+                        <div className='flex gap-8  w-[50%] productCat  '>
+
+
+                        
+                        <div className='w-[45%] my-4  '>
                             <div>
                                 <a href='/Right'><img src="/Product2/pd1.webp" /></a>
                             </div>
@@ -88,7 +92,8 @@ function page() {
                             </div>
 
                         </div>
-                        <div className='w-[25%] my-4  '>
+
+                        <div className='w-[45%] my-4  '>
                             <div>
                                 <a href='/Right'><img src="/Product2/pd4.webp" /></a>
                             </div>
@@ -103,7 +108,14 @@ function page() {
                             </div>
 
                         </div>
-                        <div className='w-[25%] my-4  '>
+
+                        </div>
+
+                        <div className='flex gap-8  w-[50%] productCat'>
+
+                       
+
+                        <div className='w-[45%] my-4  '>
                             <div>
                                 <a href='/Right'><img src="/Product2/pd2.webp" /></a>
                             </div>
@@ -118,7 +130,7 @@ function page() {
                             </div>
 
                         </div>
-                        <div className='w-[25%] my-4  '>
+                        <div className='w-[45%] my-4  '>
                             <div>
                                 <a href='/Right'><img src="/Product2/pd3.webp" /></a>
                             </div>
@@ -134,14 +146,20 @@ function page() {
 
                         </div>
 
+                        </div>
+
 
 
 
 
 
                     </div>
-                    <div className='w-[100%] flex gap-10 px-5'>
-                        <div className='w-[25%] my-4  '>
+                    <div className='w-[100%] flex px-5 productPage'>
+                        <div className='flex gap-8  w-[50%] productCat '>
+
+
+                        
+                        <div className='w-[45%] my-4  '>
                             <div>
                                 <a href='/Right'><img src="/Product2/pd1.webp" /></a>
                             </div>
@@ -156,7 +174,8 @@ function page() {
                             </div>
 
                         </div>
-                        <div className='w-[25%] my-4  '>
+
+                        <div className='w-[45%] my-4  '>
                             <div>
                                 <a href='/Right'><img src="/Product2/pd4.webp" /></a>
                             </div>
@@ -171,7 +190,14 @@ function page() {
                             </div>
 
                         </div>
-                        <div className='w-[25%] my-4  '>
+
+                        </div>
+
+                        <div className='flex gap-8  w-[50%] productCat'>
+
+                       
+
+                        <div className='w-[45%] my-4  '>
                             <div>
                                 <a href='/Right'><img src="/Product2/pd2.webp" /></a>
                             </div>
@@ -186,7 +212,7 @@ function page() {
                             </div>
 
                         </div>
-                        <div className='w-[25%] my-4  '>
+                        <div className='w-[45%] my-4  '>
                             <div>
                                 <a href='/Right'><img src="/Product2/pd3.webp" /></a>
                             </div>
@@ -202,14 +228,20 @@ function page() {
 
                         </div>
 
+                        </div>
+
 
 
 
 
 
                     </div>
-                    <div className='w-[100%] flex gap-10 px-5'>
-                        <div className='w-[25%] my-4  '>
+                    <div className='w-[100%] flex px-5 productPage'>
+                        <div className='flex gap-8  w-[50%] productCat '>
+
+
+                        
+                        <div className='w-[45%] my-4  '>
                             <div>
                                 <a href='/Right'><img src="/Product2/pd1.webp" /></a>
                             </div>
@@ -224,7 +256,8 @@ function page() {
                             </div>
 
                         </div>
-                        <div className='w-[25%] my-4  '>
+
+                        <div className='w-[45%] my-4  '>
                             <div>
                                 <a href='/Right'><img src="/Product2/pd4.webp" /></a>
                             </div>
@@ -239,7 +272,14 @@ function page() {
                             </div>
 
                         </div>
-                        <div className='w-[25%] my-4  '>
+
+                        </div>
+
+                        <div className='flex gap-8  w-[50%] productCat'>
+
+                       
+
+                        <div className='w-[45%] my-4  '>
                             <div>
                                 <a href='/Right'><img src="/Product2/pd2.webp" /></a>
                             </div>
@@ -254,7 +294,7 @@ function page() {
                             </div>
 
                         </div>
-                        <div className='w-[25%] my-4  '>
+                        <div className='w-[45%] my-4  '>
                             <div>
                                 <a href='/Right'><img src="/Product2/pd3.webp" /></a>
                             </div>
@@ -267,12 +307,20 @@ function page() {
 
 
                             </div>
+
                         </div>
+
+                        </div>
+
+
+
+
+
+
                     </div>
-                    
+                  
 
-
-                    <div className='flex justify-between px-5 border-t border-gray-300  pt-5'>
+                    <div className='flex justify-between px-5 border-t border-gray-300  pt-5 navMainBtn'>
                         <div>
                             <h1>Page 1 of 31698</h1>
                         </div>
